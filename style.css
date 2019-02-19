@@ -1,0 +1,58 @@
+.primary{
+	background-color: #2C3E50;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Site-content {
+  flex: 1;
+  width: 100%;
+}
+
+.footer{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/************************/
+/* 	    FORM        */
+/************************/
+
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+
+/************************/
+/* 	    BANNER        */
+/************************/
+
+.banner {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-img{
+   width: 100%; /* you can use % */
+    height: auto;
+}
+
+.banner-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
