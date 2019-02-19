@@ -91,3 +91,65 @@ object-fit: cover; /* permet de resize sans affecter la taille de l'image*/
 width: 100%;
 height: 400px;
 }
+
+/************************/
+/* 	    CARDS        */
+/************************/
+
+.card-margin{
+	margin: 20px;
+}
+
+.card-user{
+	width: 40%;
+	margin: 20px;
+
+}
+
+.card-title-user{
+	font-weight: bold;
+}
+
+
+/************************/
+/* 	    LIST OF CARDS        */
+/************************/
+
+.list-event{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.user-list-title{
+	font-size: 30px;
+}
+
+/************************/
+/* 	    COMMENTS        */
+/************************/
+
+.user-card-img{
+	max-height: 120px;
+	max-width: 120px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+.comment-body{
+	max-width: 900px;
+	text-align: justify;
+}
+
+.comment-card{
+	border: 2px;
+	border-style: solid;
+	border-color: #ecf0f1;
+	padding: 20px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
