@@ -45,10 +45,10 @@
   	color: white;
 }
 
-.banner-img{
+.banner-img-lg{
 object-fit: cover; /* permet de resize sans affecter la taille de l'image*/
 width: 100%;
-height: 400px;
+height: 550px;
 }
 
 .banner-title{
@@ -57,6 +57,8 @@ height: 400px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 
 .banner-content{
   position: absolute; /* La position se fait par rapport au parent*/
@@ -71,4 +73,21 @@ height: 400px;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* PETITE BANNIERE */
+
+.banner-title-sm{
+  position: absolute; /* La position se fait par rapport au parent*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+
+
+.banner-img-sm{
+object-fit: cover; /* permet de resize sans affecter la taille de l'image*/
+width: 100%;
+height: 400px;
 }
