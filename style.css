@@ -40,19 +40,35 @@
 /************************/
 
 .banner {
-	position: relative;
-  text-align: center;
-  color: white;
+	position: relative; /* La position se fait par rapport au bord de l'écran*/
+  	text-align: center;
+  	color: white;
 }
 
 .banner-img{
-   width: 100%; /* you can use % */
-    height: auto;
+object-fit: cover; /* permet de resize sans affecter la taille de l'image*/
+width: 100%;
+height: 400px;
 }
 
 .banner-title{
-  position: absolute;
+  position: absolute; /* La position se fait par rapport au parent*/
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-content{
+  position: absolute; /* La position se fait par rapport au parent*/
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.banner-btn{
+  position: absolute; /* La position se fait par rapport au parent*/
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
