@@ -153,3 +153,17 @@ height: 400px;
 	align-items: center;
 	margin: 5px;
 }
+
+.add-comment{
+	width: 900px;
+	margin: 20px;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn-comment{
+	width: 15%;
+	margin: 20px;
+}
